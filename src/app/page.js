@@ -6,6 +6,8 @@ export default function TrafficLight() {
 
   function handleClick() {
     setWalk(!walk);
+    alert(walk ? 'Parar es lo siguiente' : 'Caminar es lo siguiente');
+    // No varia si esta arriba o abajo
   }
 
   return (
